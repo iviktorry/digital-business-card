@@ -10,7 +10,7 @@ export default function App() {
       <div className="w-80 m-auto rounded-lg">
         <img src={lauraPortrait} alt="laura portrait image" />
 
-        <main className="bg-[#F5F5F5] px-9 pt-5 pb-12">
+        <main className="bg-[#F5F5F5] dark:bg-[#1A1B21] px-9 pt-5 pb-12 text-[#2B283A] dark:text-[#DCDCDC]">
           <Header />
           <Buttons />
           <AboutSection />

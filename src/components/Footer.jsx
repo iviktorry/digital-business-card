@@ -12,10 +12,10 @@ const imgs = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#D5D4D8] flex gap-6 py-5 justify-center rounded-b-lg">
-      {imgs.map((item) => {
-        return <img key={item.id} src={item.icon} alt={item.alt} />;
-      })}
+    <footer className="bg-[#D5D4D8] dark:bg-[#161619] flex gap-6 py-5 justify-center rounded-b-lg">
+      {imgs.map((item) => (
+        <img key={item.id} src={item.icon} alt={item.alt} />
+      ))}
     </footer>
   );
 }
